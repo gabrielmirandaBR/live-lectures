@@ -87,3 +87,12 @@ em {
     font-weight: 600;
     text-align: center;
 }
+
+.formation-list-item {
+    text-align: center;
+    color: #475550;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 400;
+    list-style-type: square;
+}
