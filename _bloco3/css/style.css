@@ -9,3 +9,12 @@ body {
     color: #0a7e51;
     text-align: center;
 }
+
+.hero-paragraph {
+    color: #475550;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    font-weight: 500;
+    background-color: transparent;
+}
