@@ -60,3 +60,10 @@ em {
 .testimonial-photos {
     border-radius: 50%;
 }
+
+.testimonial-2-title{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+}
