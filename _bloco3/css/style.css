@@ -49,3 +49,10 @@ em {
    color: #475550;
    font-size: 15px;
 }
+
+.testimonial-title {
+    color: #11a36a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
