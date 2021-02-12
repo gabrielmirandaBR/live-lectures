@@ -29,3 +29,11 @@ body {
     padding: 15px 30px;
     border-radius: 4px;
 }
+
+.market-title {
+    color: #11a36a;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+}
