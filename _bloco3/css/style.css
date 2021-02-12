@@ -72,3 +72,10 @@ em {
     color: #181a18;
     font-size: 15px;
 }
+
+.testimonial-2-name {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;;
+}
