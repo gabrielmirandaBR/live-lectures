@@ -1,3 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.hero-title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #0a7e51;
+    text-align: center;
+}
