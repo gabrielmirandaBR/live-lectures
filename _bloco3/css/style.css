@@ -56,3 +56,7 @@ em {
     line-height: 20px;
     font-weight: 600;
 }
+
+.testimonial-photos {
+    border-radius: 50%;
+}
