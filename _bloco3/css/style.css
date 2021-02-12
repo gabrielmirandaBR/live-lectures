@@ -79,3 +79,11 @@ em {
     line-height: 20px;
     font-weight: 400;;
 }
+
+.formation-title {
+    color: #11a36a;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+}
