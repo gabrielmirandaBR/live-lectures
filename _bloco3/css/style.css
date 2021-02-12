@@ -57,7 +57,7 @@ em {
     font-weight: 600;
 }
 
-.testimonial-photos {
+.testimonial-photos, .testimonial-2-photos {
     border-radius: 50%;
 }
 
