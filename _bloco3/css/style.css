@@ -44,3 +44,8 @@ body {
     line-height: 24px;
     text-align: center;
 }
+
+em {
+   color: #475550;
+   font-size: 15px;
+}
