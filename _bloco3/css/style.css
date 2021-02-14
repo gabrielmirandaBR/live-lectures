@@ -7,11 +7,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+em {
+    color: #475550;
+    font-size: 15px;
+ }
+
 .header {
     background-image: url("/images/smiling-image.jpg");
     background-size: cover;
     background-position: 60% 0%;
-    padding: 60px 30px 40px;
+    padding: 60px 60px 40px;
     width: 100%;
 }
 
@@ -19,7 +24,7 @@ body {
     max-width: 60%;
 }
 
-.hero-title {
+.header-content h1 {
     font-size: 45px;
     line-height: 55px;
     font-weight: 600;
@@ -32,7 +37,6 @@ body {
     color: #475550;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
     font-weight: 500;
     max-width: 81%;
     text-align: left;
@@ -45,7 +49,6 @@ body {
 
 .hero-button-container{
     margin: 50px 0 15px;
-
 }
 
 .hero-button {
@@ -60,25 +63,37 @@ body {
     text-align: center;
 }
 
-.market-title {
+.market {
+    padding: 84px 30px;
+    text-align: center;
+}
+
+.market-text {
+    max-width: 60%;
+    margin: auto;
+}
+
+.market-text h3 {
     color: #11a36a;
     font-size: 28px;
     line-height: 42px;
     font-weight: 600;
-    text-align: center;
+    margin: 10px 0 60px 0;
 }
 
-.market-paragraph {
+.market-text p {
     color: #475550;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-em {
-   color: #475550;
-   font-size: 15px;
-}
+
+
+
+
+
 
 .testimonial-title {
     color: #11a36a;
