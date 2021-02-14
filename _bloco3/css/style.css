@@ -1,22 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.header {
+    background-image: url("/images/smiling-image.jpg");
+    background-size: cover;
+    background-position: 60% 0%;
+    padding: 60px 30px 40px;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 60%;
+}
+
 .hero-title {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 45px;
+    line-height: 55px;
     font-weight: 600;
     color: #0a7e51;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .hero-paragraph {
     color: #475550;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 24px;
     text-align: center;
     font-weight: 500;
-    background-color: transparent;
+    max-width: 81%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.hero-paragraph p {
+    margin-bottom: 20px;
+}
+
+.hero-button-container{
+    margin: 50px 0 15px;
+
 }
 
 .hero-button {
@@ -28,6 +57,7 @@ body {
     background-color: #11a36a;
     padding: 15px 30px;
     border-radius: 4px;
+    text-align: center;
 }
 
 .market-title {
