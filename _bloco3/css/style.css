@@ -69,7 +69,7 @@ em {
 }
 
 .market-text {
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -89,22 +89,37 @@ em {
     margin-bottom: 30px;
 }
 
+.students-testimonial {
+    padding: 0 30px 84px 30px;
+    max-width: 100%;
+    margin: auto;
+}
 
+.testimonial-container {
+    width: 26%;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2em;
+    vertical-align: middle;
+}
 
+.testimonial-photos, .testimonial-2-photos {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 
-
-
-
-.testimonial-title {
+.testimonial-container h4 {
+    margin: 20px 0;
     color: #11a36a;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
 }
 
-.testimonial-photos, .testimonial-2-photos {
-    border-radius: 50%;
-}
+
+
+
+
 
 .testimonial-2-title{
     font-size: 28px;
