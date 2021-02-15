@@ -1,22 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.hero-title {
-    font-size: 30px;
-    line-height: 40px;
+em {
+    color: #475550;
+    font-size: 15px;
+ }
+
+.header {
+    background-image: url("/images/smiling-image.jpg");
+    background-size: cover;
+    background-position: 60% 15%;
+    padding: 60px 30px 60px;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 60%;
+}
+
+.header-content h1 {
+    font-size: 45px;
+    line-height: 55px;
     font-weight: 600;
     color: #0a7e51;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .hero-paragraph {
     color: #475550;
     font-size: 16px;
-    line-height: 21px;
-    text-align: center;
+    line-height: 24px;
     font-weight: 500;
-    background-color: transparent;
+    max-width: 65%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.hero-paragraph p {
+    margin-bottom: 20px;
+}
+
+.hero-button-container {
+    margin: 50px 0 15px;
 }
 
 .hero-button {
@@ -28,68 +60,136 @@ body {
     background-color: #11a36a;
     padding: 15px 30px;
     border-radius: 4px;
+    text-align: center;
 }
 
-.market-title {
+.market {
+    padding: 84px 30px;
+    text-align: center;
+}
+
+.market-text {
+    max-width: 70%;
+    margin: auto;
+}
+
+.market-text h3 {
     color: #11a36a;
     font-size: 28px;
     line-height: 42px;
     font-weight: 600;
-    text-align: center;
+    margin: 10px 0 60px 0;
 }
 
-.market-paragraph {
+.market-text p {
     color: #475550;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-em {
-   color: #475550;
-   font-size: 15px;
+.students-testimonial {
+    padding: 0 30px 84px 30px;
+    max-width: 100%;
+    margin: auto;
 }
 
-.testimonial-title {
+.testimonial-students-container {
+    width: 26%;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2em;
+    vertical-align: middle;
+}
+
+.testimonial-students-container img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.testimonial-students-container h4 {
+    margin: 20px 0;
     color: #11a36a;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
 }
 
-.testimonial-photos, .testimonial-2-photos {
-    border-radius: 50%;
+.testimonial-boss {
+    padding: 112px 30px;
+    max-width: 100%;
+    background-color: #f5f5f5;
 }
 
-.testimonial-2-title{
+.testimonial-boss-container {
+    margin: 35px 30px 35px;
+    padding: 30px 48px 30px 30px;
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+    text-align: justify;
+    border: 1px solid none;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.testimonial-boss-container img {
+    float: left;
+    border-radius: 50%;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.testimonial-boss-text {
+    max-width: 64%;
+    float: right;
+    color: #181a18;
+    font-size: 15px;
+}
+.testimonial-boss-text p {
+   margin-bottom: 10px; 
+}
+
+.testimonial-boss h3 {
+    color: #11a36a;;
     font-size: 28px;
     line-height: 30px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 84px;
 }
 
-.testimoninial-paragraph {
-    color: #181a18;
-    font-size: 15px;
-}
-
-.testimonial-2-name {
+.testimonial-boss-container h4 {
     color: black;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;;
 }
 
-.formation-title {
+.formation {
+    padding: 84px 70px;
+    min-height: 380px;
+}
+
+.formation-text-left {
+    float: left;
+    max-width: 35%;
+}
+
+.formation-text-left h3 {
     color: #11a36a;
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+    margin: 10px 0 60px;
 }
 
-.formation-list-item {
-    text-align: center;
+.formation-text-left li{
+    margin: 5px 0 25px;
+    text-align: left;
     color: #475550;
     font-size: 16px;
     line-height: 1.4em;
@@ -97,8 +197,22 @@ em {
     list-style-type: square;
 }
 
-.know-more-title {
-    padding: 0 20px;
+.formation-image-right {
+    float: right;
+    width: 550px;
+    height: 350px;
+    margin-right: 80px;
+}
+
+.formation-button {
+    clear: both;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.formation-button h4 {
+    margin-bottom: 30px;
     color: #11a36a;
     font-size: 18px;
     line-height: 24px;
@@ -106,8 +220,9 @@ em {
     text-align: center;
 }
 
-.know-more-button {
-    font-size: 14px;
+.formation-button a {
+    margin-bottom: 10px;
+    font-size: 16px;
     background-color: #11a36a;
     padding: 15px 30px;
     border-radius: 4px;
