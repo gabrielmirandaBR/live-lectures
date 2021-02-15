@@ -192,3 +192,32 @@ em {
     height: 350px;
     margin-right: 80px;
 }
+
+.formation-button {
+    clear: both;
+    text-align: center;
+    padding: 60px;
+    margin: 0 auto;
+}
+
+.formation-button h4 {
+    margin-bottom: 30px;
+    color: #11a36a;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.formation-button a{
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #11a36a;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: white;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
