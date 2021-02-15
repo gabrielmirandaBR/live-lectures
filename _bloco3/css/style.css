@@ -15,8 +15,8 @@ em {
 .header {
     background-image: url("/images/smiling-image.jpg");
     background-size: cover;
-    background-position: 60% 0%;
-    padding: 60px 60px 40px;
+    background-position: 60% 15%;
+    padding: 60px 30px 60px;
     width: 100%;
 }
 
@@ -38,7 +38,7 @@ em {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    max-width: 81%;
+    max-width: 65%;
     text-align: left;
     margin-bottom: 10px;
 }
@@ -95,7 +95,7 @@ em {
     margin: auto;
 }
 
-.testimonial-container {
+.testimonial-students-container {
     width: 26%;
     text-align: center;
     display: inline-block;
@@ -103,12 +103,13 @@ em {
     vertical-align: middle;
 }
 
-.testimonial-photos, .testimonial-2-photos {
+.testimonial-students-container img {
     border-radius: 50%;
     margin-bottom: 10px;
+    width: 120px;
 }
 
-.testimonial-container h4 {
+.testimonial-students-container h4 {
     margin: 20px 0;
     color: #11a36a;
     font-size: 14px;
@@ -116,40 +117,68 @@ em {
     font-weight: 600;
 }
 
-
-
-
-
-
-.testimonial-2-title{
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: 600;
-    text-align: center;
+.testimonial-boss {
+    padding: 112px 30px;
 }
 
-.testimoninial-paragraph {
+.testimonial-boss-container{
+    margin: 35px 30px 35px;
+    padding: 30px 48px 30px 30px;
+    display: inline-block;
+    width: 80%;
+}
+
+.testimonial-boss-container img {
+    border-radius: 50%;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.testimonial-boss-text {
+    max-width: 80%;
+    float: right;
+    text-align: left;
     color: #181a18;
     font-size: 15px;
 }
 
-.testimonial-2-name {
+.testimonial-boss h3{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+.testimonial-boss-container h4 {
     color: black;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;;
 }
 
-.formation-title {
+.formation {
+    padding: 84px 70px;
+    min-height: 380px;
+}
+
+.formation-text-left {
+    float: left;
+    max-width: 35%;
+}
+
+.formation-text-left h3 {
     color: #11a36a;
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+    margin: 10px 0 60px;
 }
 
-.formation-list-item {
-    text-align: center;
+.formation-text-left li{
+    margin: 5px 0 25px;
+    text-align: left;
     color: #475550;
     font-size: 16px;
     line-height: 1.4em;
@@ -157,23 +186,9 @@ em {
     list-style-type: square;
 }
 
-.know-more-title {
-    padding: 0 20px;
-    color: #11a36a;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.know-more-button {
-    font-size: 14px;
-    background-color: #11a36a;
-    padding: 15px 30px;
-    border-radius: 4px;
-    color: white;
-    line-height: 20px;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
+.formation-image-right {
+    float: right;
+    width: 550px;
+    height: 350px;
+    margin-right: 80px;
 }
