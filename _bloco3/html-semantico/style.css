@@ -38,3 +38,16 @@ header {
   color: white;
   text-decoration: none;
 }
+
+.article {
+  padding: 15px;
+}
+
+.article__content h2 {
+  margin-bottom: 20px ;
+}
+
+.article__content p {
+  margin-bottom: 5px;
+  text-align: justify;
+}
