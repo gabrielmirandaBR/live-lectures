@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(10, 126, 81);
+  color: white;
+}
+
+.header__titles {
+  padding: 10px 30px 0;
+
+}
+
+.navegation {
+  background-color: cornflowerblue;
+  padding: 0 30px;
+}
+
+.navegation__list {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.navegation__list li {
+  display: inline;
+  padding-right: 40px;
+}
+
+.navegation__list a {
+  color: white;
+  text-decoration: none;
+}
