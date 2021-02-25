@@ -67,4 +67,4 @@ switch (weekDay) {
   default:
     console.log("Esse dia não existe!");
     break;
-}
+};
