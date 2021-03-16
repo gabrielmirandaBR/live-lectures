@@ -26,3 +26,45 @@ body {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+#speaker-form {
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  margin: 0 auto 40px auto;
+  padding: 50px;
+  width: 80%;
+}
+
+#form-container {
+  margin-bottom: 40px;
+}
+
+.line {
+  margin: 20px;
+}
+
+.line input[type="text"] {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 7px;
+  width: 100%;
+}
+
+#fieldsat-container {
+  padding: 10px;
+}
+
+
+textarea {
+  display: block;
+  overflow-y: auto;
+  resize: none;
+  width: 100%;
+}
+
+#button-submit {
+  padding: 5px;
+}
