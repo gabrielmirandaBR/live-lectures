@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submeter Palestra</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header class="header-content">
+      <h1>Submeter Palestra</h1>
+      <p><em>Quer palestrar na nossa conferência? Preencha o formulário!</em></p>
+    </header>
+
+    <form action="" method="GET" id="speaker-form">
+      <div id="form-container">
+        <div class="line">
+          <label for="name">Name
+            <input type="text" name="name" id="name" placeholder="Enter your full name">
+          </label>
+        </div>
+
+        <div class="line">
+          <fieldset id="fieldsat-container">
+            <legend>Type of Talk</legend>
+            <label for="talk-type">Main Stage
+              <input type="radio" name="talk-type" id="talk-type" value="main-stage" checked>
+            </label>
+            <label for="talk-type">Workshop
+              <input type="radio" name="talk-type" id="talk-type" value="workshop">
+            </label>
+          </fieldset>
+        </div>
+
+        <div class="line">
+          <label for="tshirt-model">T-Shirt Size
+            <select name="tshirt-model" id="tshirt-model">
+              <option value="XS">Extra Small</option>
+              <option value="S">Small</option>
+              <option value="M" selected>Medium</option>
+              <option value="L">Large</option>
+              <option value="XL">Extra Large</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="line">
+          <label for="abstract">Abstract
+            <textarea name="abstract" id="abstract" cols="30" rows="5" maxlength="500" placeholder="Describe your talk in 500 characters or less."></textarea>
+          </label>
+        </div>
+
+        <div class="line">
+          <input type="checkbox" name="is-available" id="is-available">
+          <label for="is-available">I'm available fot the talk</label>
+        </div>
+
+        <div class="line">
+          <button type="submit" id="button-submit">Submit</button>
+        </div>
+
+      </div>
+    </form>
+    
+  </body>
+</html>
