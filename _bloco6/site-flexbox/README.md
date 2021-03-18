@@ -1,2 +1,5 @@
-**/.vscode
-node_modules/
+## Objetivo
+
+<ul>
+  <li>Criar um layout utilizando técnicas de flexbox.</li>
+<ul>
