@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 20px 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-container img {
+  width: 200px;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+nav, ul {
+  list-style: none;
+}
+
+.hero {
+  align-items: center;
+  background-image: url(/images/hero.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.hero a {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+.know-the-hotel-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+}
+
+.know-the-hotel-container h3 {
+  color: #191c03;
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.know-the-hotel-container p {
+  color: black;
+  margin-bottom: 35px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.know-the-hotel-container hr {
+  background-color: #191c03;
+  border: none;
+  margin-bottom: 70px;
+  height: 2px;
+  width: 200px;
+}
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.images-list li {
+  width: 400px;
+  padding: 20px;
+  height: 350px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+.small {
+  flex-basis: 40%;
+}
+
+.large {
+  flex-basis: 60%;
+}
+.images-list li:nth-child(1) {
+  background-image: url(/images/itacare-01.jpg);
+}
+
+.images-list li:nth-child(2) {
+  background-image: url(/images/itacare-02.jpg);
+}
+
+.images-list li:nth-child(3) {
+  background-image: url(/images/itacare-03.jpg);
+}
+
+.images-list li:nth-child(4) {
+  background-image: url(/images/itacare-04.jpg);
+}
+
+.features-container {
+  align-items: center;
+  background-color: #191c03;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+}
+.features-container h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.features-container p {
+  color: white;
+  margin-bottom: 35px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.features-container hr {
+  background-color: white;
+  border: none;
+  height: 2px;
+  margin-bottom: 70px;
+  width: 200px;
+}
+
+.icons-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-list li {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.icons-list li i {
+  color: #c3c63b;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.icons-list li h4 {
+  color: #c3c63b;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.icons-list li p {
+  color: white;
+  margin-bottom: 35px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.newsletter-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+}
+
+.newsletter-container h3 {
+  color: #c3c63b;
+  font-size: 25px ;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.newsletter-container p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #c3c63b
+}
+
+.newsletter-container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  width: 80%;
+}
+
+.newsletter-container form input {
+  padding: 15px;
+  border: 1px solid #c3c63b;
+  border-radius: 4px;
+  margin-right: 15px;
+  flex:1;
+}
+.newsletter-container form button {
+  padding: 15px;
+  background-color: #c3c63b;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-container {
+  align-items: center;
+  background-color: #191c03;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.social-medias-list {
+  display: flex;
+  margin-bottom: 25px ;
+}
+
+.footer-container p {
+  color: #c3c63b;
+  text-align: center;
+}
+
+.social-medias-list li{
+  padding: 0 15px;
+}
+
+.social-medias-list li i {
+  color: #c3c63b;
+  font-size: 25px;
+  display: flex;
+  margin-bottom: 25px ;
+}
+
+.social-medias-list li i:nth-child(1) {
+  order: 4;
+}
+
+.social-medias-list li i:nth-child(2) {
+  order: 3;
+}
+
+.social-medias-list li i:nth-child(3) {
+  order: 2;
+}
+
+.social-medias-list li i:nth-child(4) {
+  order: 1;
+}
