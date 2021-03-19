@@ -131,3 +131,63 @@ a:visited, a:hover, a:active {
 .images-list li:nth-child(4) {
   background-image: url(/images/itacare-04.jpg);
 }
+
+.features-container {
+  align-items: center;
+  background-color: #191c03;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+}
+.features-container h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.features-container p {
+  color: white;
+  margin-bottom: 35px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.features-container hr {
+  background-color: white;
+  border: none;
+  height: 2px;
+  margin-bottom: 70px;
+  width: 200px;
+}
+
+.icons-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-list li {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.icons-list li i {
+  color: #c3c63b;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.icons-list li h4 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #c3c63b;
+}
+
+.icons-list li p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
