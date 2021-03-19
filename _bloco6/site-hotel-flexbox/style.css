@@ -22,7 +22,7 @@
   width: 200px;
 }
 
-.links-container a {
+a {
   color: black;
   cursor: pointer;
   opacity: 0.8;
@@ -38,3 +38,96 @@ a:visited, a:hover, a:active {
   color: inherit;
 }
 
+.hero {
+  align-items: center;
+  background-image: url(/images/hero.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.hero a {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+.know-the-hotel-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+}
+
+.know-the-hotel-container h3 {
+  color: #191c03;
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.know-the-hotel-container p {
+  color: black;
+  margin-bottom: 35px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.know-the-hotel-container hr {
+  background-color: #191c03;
+  border: none;
+  margin-bottom: 70px;
+  height: 2px;
+  width: 200px;
+}
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+}
+
+.images-list li {
+  width: 400px;
+  padding: 20px;
+  height: 350px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+.small {
+  flex-basis: 40%;
+}
+
+.large {
+  flex-basis: 60%;
+}
+.images-list li:nth-child(1) {
+  background-image: url(/images/itacare-01.jpg);
+}
+
+.images-list li:nth-child(2) {
+  background-image: url(/images/itacare-02.jpg);
+}
+
+.images-list li:nth-child(3) {
+  background-image: url(/images/itacare-03.jpg);
+}
+
+.images-list li:nth-child(4) {
+  background-image: url(/images/itacare-04.jpg);
+}
