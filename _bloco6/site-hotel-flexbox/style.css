@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 20px 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-container img {
+  width: 200px;
+}
+
+.links-container a {
+  color: black;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.links-container a:hover {
+  opacity: 1;
+}
+
+a:visited, a:hover, a:active {
+  color: inherit;
+}
+
