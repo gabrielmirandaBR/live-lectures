@@ -283,3 +283,44 @@ nav, ul {
 .social-medias-list li i:nth-child(4) {
   order: 1;
 }
+
+@media screen and (max-width: 375px) {
+  .links-container {
+    display: none;
+  }
+  .header-container {
+    justify-content: center;
+  }
+  .hero h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .know-the-hotel-container {
+    padding: 100px 10px;
+  }
+  .images-list li {
+    padding: 10px;
+  }
+  .images-list .small {
+    flex-basis: 100%;
+  }
+  .images-list .large {
+    flex-basis: 100%;
+  }
+  .icons-list {
+    flex-direction: column;
+  }
+  form button {
+    margin-top: 20px;
+  }
+  .social-medias-list li i{
+    font-size:45px;
+  }
+  .footer-container p {
+    font-size: 12px;
+  }
+}
