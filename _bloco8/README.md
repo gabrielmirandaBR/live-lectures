@@ -1,5 +1,5 @@
 ## Objetivo
 
 <ul>
-  <li>Utilizando as Higher Order Functions - map e filter <li>
+  <li>Utilizando as Higher Order Functions - map, filter e reduce<li>
 </ul>
